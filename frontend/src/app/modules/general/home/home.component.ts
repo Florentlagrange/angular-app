@@ -16,73 +16,74 @@ export class HomeComponent {
 
   items = [
     {
-      icon: "fa-solid fa-file-lines",
-      name: "Landing Page",
+      vignette: "./assets/params/images/logo/Estampille_Rose_02.png",
+      name: "Accueil",
       description: "Css linear-gradient",
       link:'/landing-page'
     },
     {
-      icon: "fa-solid fa-address-card",
-      name: "Images Cards",
+
+      vignette: "./assets/params/images/logo/P022 -machine_ecriture_01_002.png",
+      name: "Projets",
       description: "Cascade Cards",
       link:'/cards'
     },
     {
-      icon: "fa-brands fa-bootstrap",
-      name: "bootstrap",
+      vignette: "./assets/params/images/logo/P010-MASTER_Isotype_Book_06-71.png",
+      name: "Code",
       description: "UI and components",
       link:'/bootstrap'
     },
     {
-      icon: "fa-sharp fa-solid fa-newspaper",
-      name: "News",
+      vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-07.png",
+      name: "Actualités",
       description: "Trailers and youtube",
       link:'/news'
     },
     {
-      icon: "fa-solid fa-chart-simple",
-      name: "Boxoffice",
+     vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-31.png",
+      name: "Tutoriel",
       description: "Movies boxoffice",
       link:'/boxoffice'
     },
     {
-      icon: "fa-brands fa-readme",
+      vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-33.png",
       name: "CRUD",
       description: "Create Read Update",
       link:'/crud'
     },
     {
-      icon: "fa-solid fa-blender-phone",
+      vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-34.png",
       name: "Services",
       description: "angular Services",
       link:'/services'
     },
     {
-      icon: "fa-solid fa-screwdriver-wrench",
+      vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-35.png",
       name: "Components",
       description: "Angular components",
       link:'/components'
     },
     {
-      icon: "fa-solid fa-network-wired",
+     vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-72.png",
       name: "HttpClient",
       description: "Httpclient library",
       link:'/httpclient'
     },
     {
-      icon: "fa-regular fa-rectangle-list",
+     vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-72.png",
       name: "forms",
       description: "Reactive & Template",
       link:'/forms'
     },
     {
-      icon: "fa-regular fa-window-restore",
+      vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-72.png",
       name: "Modal",
       description: "Modal with bootstrap",
       link:'/modal'
     },
     {
-      icon: "fa-solid fa-spell-check",
+      vignette: "./assets/params/images/logo/P011-MASTER_Isotype_Book_06-72.png",
       name: "Prism",
       description: "Syntax highlighter,",
       link:'/prism'

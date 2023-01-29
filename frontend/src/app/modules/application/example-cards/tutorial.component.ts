@@ -28,49 +28,49 @@ export class TutorialComponent implements OnInit {
         {
           type: 'CRUD',
           description: 'CRUD , API Rest, Components, Pages, Extends',
-          image: 'demo-responsive-images-list.png',
+          image: 'vignettes_carnets-de-recherche_02.png',
           link: 'crud'
         },
         {
           type: 'Services',
           description: 'Use services to view a playlist and a youtube player',
-          image: 'demo-services-playlist-youtube.png',
+          image: 'vignettes_carnets-de-recherche_03.png',
           link: 'services'
         },
         {
           type: 'Components',
           description: 'Channel Component with Input, Output and Event Emitter',
-          image: 'demo-components.png',
+          image: 'vignettes_carnets-de-recherche_04.png',
           link: 'components'
         },
         {
           type: 'HttpClient',
           description: 'Use an external API with the HttpClient module',
-          image: 'demo-httpclient.png',
+          image: 'vignettes_carnets-de-recherche_05.png',
           link: 'httpclient'
         },
         {
           type: 'Reactive Form',
           description: 'A model-driven approach to handling form inputs',
-          image: 'demo-reactive-forms.png',
+          image: 'vignettes_carnets-de-recherche_06.png',
           link: 'forms'
         },
         {
           type: 'Template Driven Forms',
           description: 'Forms are the mainstay of business applications',
-          image: 'demo-template-driven-forms.png',
+          image: 'Vignettes_textes_11.png',
           link: 'forms'
         },
         {
           type: 'Modal',
           description: 'How to implement modal windows with Angular and Bootstrap',
-          image: 'demo-template-driven-forms.png',
+          image: 'Vignettes_prototypes_04.png',
           link: 'modal'
         },
         {
           type: 'Prism',
           description: 'Use a lightweight, extensible syntax highlighter',
-          image: 'demo-template-driven-forms.png',
+          image: 'Vignettes_prototypes_02.png',
           link: 'prism'
         },
       ];

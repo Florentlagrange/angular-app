@@ -7,7 +7,7 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 import { AppRoutingModule } from './app-routing.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { HttpClientModule } from '@angular/common/http';
-
+import { SidebarModule } from './components/sidebar/sidebar.module';
 import { HeaderModule } from './components/header/header.module';
 import { FooterModule } from './components/footer/footer.module';
 
@@ -22,6 +22,7 @@ import { FooterModule } from './components/footer/footer.module';
     AppRoutingModule,
     HttpClientModule,
     HeaderModule,
+    SidebarModule,
     FooterModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),

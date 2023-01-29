@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
-
+import { SidebarModule } from './components/sidebar/sidebar.module';
 import { HeaderModule } from './components/header/header.module';
 import { FooterModule } from './components/footer/footer.module';
 
@@ -11,7 +11,9 @@ describe('AppComponent', () => {
       imports: [
         RouterTestingModule,
         HeaderModule,
-        FooterModule
+        FooterModule,
+        SidebarModule,
+
       ],
       declarations: [
         AppComponent

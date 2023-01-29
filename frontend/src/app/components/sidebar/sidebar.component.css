@@ -1,0 +1,38 @@
+.nga-nav-link {
+  color: rgb(29, 29, 29);
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #2f3031;
+  font-weight: 500;
+}
+
+.nga-nav-link:hover {
+  color: rgb(95, 95, 39);
+  border-top: 1px solid rgb(78, 78, 70);
+  border-bottom: 1px solid rgb(71, 71, 59);
+}
+
+
+.nga-navbar {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #0e0f0f;
+}
+
+.nga-logo {
+  font-weight: 500;
+}
+
+.nga-logo:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.nga-btn-navbar {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #1976d2;
+  --bs-btn-border-color: #1976d2;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+}
+
+

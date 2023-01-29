@@ -1,7 +1,7 @@
 .nga-nav-link {
   color: white;
-  border-top: 1px solid #09238d;
-  border-bottom: 1px solid #09238d;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #2f3031;
   font-weight: 500;
 }
 
@@ -15,7 +15,7 @@
 .nga-navbar {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: #09238d;
+  background-color: #0e0f0f;
 }
 
 .nga-logo {
